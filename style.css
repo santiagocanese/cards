@@ -1,0 +1,203 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    margin: 0;
+    animation: bg 15s ease infinite;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    }
+
+@keyframes bg {
+    0%{background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+
+
+/* -------PRIMERA TARJETA -------*/
+
+.card {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 500px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+}
+
+.card_title{
+    font-size: 22px;
+    margin: 0;
+}
+
+.card_subtitle {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.card_content {
+    font-size: 12px;
+    padding: 20px;
+    padding-bottom: 0;
+    text-align: justify;
+}
+
+.card_img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card_content:hover {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px;
+    padding-bottom: 0;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 500px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+
+
+/* -------SEGUNDA TARJETA -------*/
+
+.card2 {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin-top: 180px;
+    margin-left: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    
+}
+
+.card_img2{
+    width: 160px;
+    filter: drop-shadow( 0 0 0 15px #000f);
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+}
+
+.card2:hover {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin-top: 180px;
+    margin-left: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+
+
+/* -------TERCERA TARJETA ---------*/
+
+.card3{
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin-top: 180px;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+}
+
+.card_img3{
+    width: 200px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.card3:hover{
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin-top: 180px;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    transition:0.5s ;
+}
+
+/* -------CONTACTOS 
+
+.contact{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    box-sizing: content-box;
+    width: 100%;
+
+}
+
+.buttons{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6px;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #2A3335;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    min-height: 100vh;
+}
+
+h3{
+    color: aliceblue;
+}
+
+---------*/
