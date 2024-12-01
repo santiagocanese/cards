@@ -16,10 +16,10 @@ body {
     0%{background-position: 0% 50%;
     }
     50%{
-        background-position: 100% 100%;
+        background-position: 50% 50%;
     }
     100%{
-        background-position: 0% 50%;
+        background-position: 0% 0%;
     }
     
 }
@@ -36,7 +36,7 @@ body {
     margin-top: 40px;
     margin-left: 500px;
     padding: 20px 10px;
-    box-shadow: 0 0 45px #0007;
+    box-shadow: 10 10 45px #0007;
     border-radius: 8px;
 }
 
@@ -48,6 +48,14 @@ body {
 .card_subtitle {
     font-size: 16px;
     letter-spacing: 2px;
+}
+
+.card_content_1 {
+    font-size: 12px;
+    padding: 20px;
+    padding-bottom: 0;
+    box-shadow: 10 10 45px #0007;
+    text-align: justify;
 }
 
 .card_content {
@@ -62,13 +70,13 @@ body {
     border-radius: 50%;
 }
 
-.card_content:hover {
+/*.card_content:hover {
     font-size: 17px;
     font-weight: 500;
     padding: 20px;
     padding-bottom: 0;
     transition: 0.5s;
-}
+}*/
 
 .card:hover {
     background-color: lightblue;
@@ -77,7 +85,7 @@ body {
     width: 350px;
     margin: auto;
     margin-top: 40px;
-    margin-left: 500px;
+    margin-left: 475px;
     padding: 20px 10px;
     box-shadow: 0 0 45px #0007;
     border-radius: 8px;
@@ -114,7 +122,7 @@ body {
     text-align: center;
     width: 350px;
     margin-top: 180px;
-    margin-left: 50px;
+    margin-left: 40px;
     padding: 20px 10px;
     box-shadow: 0 0 45px #0007;
     border-radius: 8px;
@@ -131,7 +139,7 @@ body {
     text-align: center;
     width: 300px;
     margin-top: 180px;
-    margin-left: 900px;
+    margin-left: 925px;
     margin-bottom: 10px;
     padding: 20px 10px;
     box-shadow: 0 0 45px #0007;
@@ -157,6 +165,113 @@ body {
     border-radius: 8px;
     transition:0.5s ;
 }
+
+/* -------CUARTA TARJETA -------*/
+
+.card4 {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 550px;
+    margin-left: 500px;
+    padding: 20px 10px;
+    box-shadow: 10 10 45px #0007;
+    border-radius: 8px;
+}
+
+.card_img4{
+    width: 200px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.card4:hover {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    margin-top: 550px;
+    margin-left: 475px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+/* -------QUINTA TARJETA -------*/
+
+.card5 {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin-top: 650px;
+    margin-left: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    
+}
+
+.card_img5{
+    width: 160px;
+    filter: drop-shadow( 0 0 0 15px #000f);
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+}
+
+.card5:hover {
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin-top: 650px;
+    margin-left: 40px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+
+/* -------SEXTA TARJETA -------*/
+
+.card6{
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin-top: 650px;
+    margin-left: 925px;
+    margin-bottom: 50px;
+    padding: 20px 10px ;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+}
+
+.card_img6{
+    width: 200px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.card6:hover{
+    background-color: lightblue;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    margin-top: 650px;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px #0007;
+    border-radius: 8px;
+    transition:0.5s ;
+}
+
 
 /* -------CONTACTOS 
 
